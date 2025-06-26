@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff6b6b); /* Youthful colors */
+    color: white;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background: #4e54c8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    color: rgb(7, 113, 78);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Image Section */
+.image-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
